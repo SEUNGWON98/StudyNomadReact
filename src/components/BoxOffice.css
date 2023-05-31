@@ -1,0 +1,120 @@
+/* .body {
+  width: 100vw;
+  height: 100vh;
+} */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar {
+  font-size: 45px;
+  font-weight: 700;
+  color: red;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: black;
+}
+
+.slide {
+  position: absolute;
+  left: -10px;
+  width: 100vw;
+  top: 8vh;
+  padding: 0 0 0 0;
+}
+
+.slide_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 50vw;
+  height: 112vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.slide_title {
+  display: flex;
+  position: relative;
+  margin-top: 30vh;
+  font-size: 50px;
+}
+
+.slide_overview {
+  font-size: 25px;
+
+  padding: 0 40px 0 40px;
+}
+
+.slick-next {
+  left: 95vw;
+}
+
+/* .slick-next {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 50px;
+} */
+
+.flex {
+  display: flex;
+}
+
+.movieBox {
+  width: 300px;
+  height: 500px;
+  padding: 50px 30px 0 30px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.description {
+  padding: 10px 10px 10px 20px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.white {
+  color: white;
+}
+
+.link {
+  text-decoration-line: none;
+  font-size: 25px;
+}
+
+.BoxOffice {
+  display: flex;
+  margin: 50px 0 0 0;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.rank {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+
+.backimg {
+  width: 100%;
+}
