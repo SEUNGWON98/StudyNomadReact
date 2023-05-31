@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/StudyNomadReact/static/css/main.89294f0d.css",
+    "main.js": "/StudyNomadReact/static/js/main.5b4366fe.js",
+    "static/media/slick.svg": "/StudyNomadReact/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/StudyNomadReact/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/StudyNomadReact/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/StudyNomadReact/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/StudyNomadReact/index.html",
+    "main.89294f0d.css.map": "/StudyNomadReact/static/css/main.89294f0d.css.map",
+    "main.5b4366fe.js.map": "/StudyNomadReact/static/js/main.5b4366fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89294f0d.css",
+    "static/js/main.5b4366fe.js"
+  ]
+}
